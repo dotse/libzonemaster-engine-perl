@@ -1,0 +1,30 @@
+Source: libzonemaster-engine-perl
+Section: perl
+Priority: optional
+Maintainer: Mattias Päivärinta <mattias.paivarinta@iis.se>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep:
+ libfile-sharedir-perl,
+ libfile-slurp-perl,
+ libhash-merge-perl,
+ libintl-perl,
+ libio-socket-inet6-perl,
+ libmail-rfc822-address-perl,
+ libmodule-find-perl,
+ libmoose-perl,
+ libnet-ip-perl,
+ libreadonly-perl,
+ libtest-fatal-perl,
+ libtext-csv-perl,
+ libzonemaster-ldns-perl,
+ perl
+Standards-Version: 3.9.2
+Homepage: http://search.cpan.org/dist/Zonemaster-Engine/
+
+Package: libzonemaster-engine-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: A tool to check the quality of a DNS zone
+ (no description was found)
+ .
+ This description was automagically extracted from the module by dh-make-perl.
